@@ -32,6 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Ponto.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="TFila.h" />
+		<Unit filename="TLista.h" />
+		<Unit filename="TNo.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

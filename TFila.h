@@ -12,7 +12,7 @@ template <typename T> class TFila{
         void add(T _info); ///Adiciona elementos na fila
         T poll(); ///Retira elementos da fila
         T peek(); /// Retorna o primeiro elemento da fila (no caso é o ult por motivos de logística)
-        void isEmpty();
+        bool isEmpty();
         ~TFila<T>();
 };
 
@@ -32,15 +32,14 @@ template <typename T> T TFila<T>::peek(){
     return(l ->get((l->size())-1));
 }
 
-template <typename T> void TFila<T>::isEmpty()
+template <typename T> bool TFila<T>::isEmpty()
 {
-    cout << l->size();
 
-//    if(l->size==0){
-//        return true;
-//    }else{
-//        return false;
-//    }
+    if(l->size()==0){
+        return true;
+    }else{
+        return false;
+    }
 }
 
 

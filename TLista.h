@@ -21,7 +21,7 @@ template <typename T> class TLista{
       TNo<T>* getprim();
       TNo<T>* getult();
       string gettipo();
-      int size() const; ///método para consultar o número de elementos na lista
+      int size(); ///método para consultar o número de elementos na lista
       void ins_ini(const T &_info); ///inserir um elemento no início da lista
       void ins_fim(const T &_info); ///inserir um elemento no final da lista
       void ins(int i, const T &_info); ///inserir um elemento na posição i da lista (0 é o primeiro)
@@ -95,7 +95,7 @@ template <typename T> string TLista<T>::gettipo(){
    return tipo;
 }
 
-template <typename T> int TLista<T>::size() const{
+template <typename T> int TLista<T>::size() {
    return n;
 }
 

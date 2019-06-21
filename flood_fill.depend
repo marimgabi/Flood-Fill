@@ -1,8 +1,19 @@
 # depslib dependency file v1.0
-1560637719 source:d:\cc\ed 2019\flood_fill\flood_fill\main.cpp
+1561057429 source:d:\cc\ed 2019\flood_fill\flood_fill\main.cpp
 	<iostream>
 	<fstream>
 	"Ponto.h"
+	"TFila.h"
 
-1560637584 d:\cc\ed 2019\flood_fill\flood_fill\ponto.h
+1560642507 d:\cc\ed 2019\flood_fill\flood_fill\ponto.h
+
+1561053360 d:\cc\ed 2019\flood_fill\flood_fill\tfila.h
+	"TLista.h"
+
+1561053217 d:\cc\ed 2019\flood_fill\flood_fill\tlista.h
+	<iostream>
+	<string>
+	"TNo.h"
+
+1560864133 d:\cc\ed 2019\flood_fill\flood_fill\tno.h
 
